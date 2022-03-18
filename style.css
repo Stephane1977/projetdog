@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Open', sans-serif;
+    font-size: 16px;
+    margin:0;/*Marges extérieur*/
+}
+.container {
+    width: 60%;
+    margin: auto;
+  
+}
+
+header {
+    background-color :#f8f9fa;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #999999;
+    
+}
+
+header nav {
+    display: flex;
+    align-items: center; /*aligne verticalement*/
+    justify-content: space-between;
+}
+
+    
+.logo {
+    text-decoration: none;
+    color: var(--black)#000000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo span {
+    color: var(--orange) orange;
+}
+
+.toutou {
+
+    display: flex;
+    align-items: center;
+}
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px ;
+}
+header section img {
+    width: 35%;
+}
+header section h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: lighter;
+}
+
+main section:not(:first-child) {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: center;
+    text-align: right;
+    margin: 100px 0;
+}
+
+.welcome {
+    text-align: center;
+    margin: 65px AUTO;
+    width: 50%;
+}
+
+.welcome h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+.welcome p {
+    margin: 0;
+    font-weight: ligter;
+    color:#999999;
+
+}
+
+section img {
+    width: 50%;
+    box-shadow: 10px 10px 0 var(--gray#999999);
+}
+
+.container {
+    text-decoration: none;
+    color: var(--gray#999999);
+    margin-bottom: 100px;
+}
+
+h3 {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+h2 {
+    text-decoration: none;
+    color:var(--black);
+    font-size: 2rem;
+    font-weight: normal;
+}
+h1 {
+    text-decoration: none;
+    color: var(--black)#000000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+main section:nth-child(3) {
+text-align:left;
+}
+.readmore {
+    background-color: #a2c0be;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 12px 32px;
+}
+.readmore:hover {
+    background-color:var(--black)#000000;
+    transition: all 500ms;
+}
+footer {
+    background-color: #4a4a4b;
+    color:var(--#FFFFFF);
+    text-align: center;
+    font-size: 50px 0;
+    padding: 50px 0;
+    }
+:root {
+    --black: #000000;
+    --white:#FFFFFF;
+    --orange:#Ff9900;
+    --gray: #999999;
+
+}
